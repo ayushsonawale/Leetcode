@@ -10,9 +10,9 @@ public:
             cntS[s[i]]++;
             cntT[t[i]]++;
         }
-        if(cntS == cntT) {
-            return true;
-        }
-        return false;
+        // if(cntS == cntT) {
+        //     return true;
+        // }
+        return cntS == cntT;
     }
 };
